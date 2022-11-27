@@ -163,3 +163,17 @@ while (m < myOrder.length) {
 console.log(drinkOrder);
 console.log(foodOrder);
 
+console.log("*********************** ACTIVITY NO.1 *********************************\n")
+
+const sayHello = (friend, drink) => {
+    console.log(`Well, hello there ${friend}, let me get you a ${drink}!\n`)
+}
+sayHello("Prince Charles","pint of heavy")
+
+
+console.log("*********************** ACTIVITY NO.2a *********************************\n")
+
+const multiply = (num1, num2) => {
+    return num1 * num2;
+}
+console.log(`${multiply(2,5)}\n`);
